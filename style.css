@@ -3,11 +3,12 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
+    background-color: rgb(247, 235, 221);
 }
 
 h1 {
     color: rgb(230, 113, 191);
-    background-color: rgb(252, 222, 244);
+    background-color: rgb(255, 240, 251);
     font-family: monospace;
     width: 550px;
 }
@@ -55,7 +56,6 @@ ul {
 .home-title {
     position: absolute;
     padding: 30px;
-    background-color: bisque;
     color: rgb(230, 113, 191);
     font-size: 30px;
 }
@@ -76,4 +76,39 @@ ul {
     text-align: center;
     margin: 40px 0;
     color: rgb(230, 113, 191);
+}
+
+
+.tabela, td {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    height: -100px;
+}
+td {
+    padding: 8px 10px;
+    margin: 8px 10px;
+    border: 5px  solid palevioletred;
+    display: flex;
+    
+    
+}
+
+img {
+    width: 300px;
+    padding: 8px 8px;
+    display: flex;
+}
+
+.meu-botao {
+    background-color:palevioletred;
+    color:rgb(224, 76, 175);;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    font-family: monospace;
+    cursor: pointer;
+    border: none;
 }
