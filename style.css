@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+h1 {
+    color: rgb(230, 113, 191);
+    background-color: rgb(252, 222, 244);
+    font-family: monospace;
+    width: 550px;
+}
+
+ul {
+    list-style: none;
+}
+
+.site-header {
+    display: flex;
+    gap: 70px;
+    align-items: center;
+    padding: 20px;
+}
+
+.site-logo {
+    font-family: monospace;
+}
+
+.menu-list {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.menu-link {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(230, 113, 191);
+    font-size: 22px;
+}
+
+#home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-bg-imagem {
+    width: 100%;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+.home-title {
+    position: absolute;
+    padding: 30px;
+    background-color: bisque;
+    color: rgb(230, 113, 191);
+    font-size: 30px;
+}
+
+#promotions .imagem-item {
+    width: 150px;
+    height: 250px;
+    display: flex;
+}
+
+.Tendência-imagem {
+    gap: 10px;
+    justify-content: center;
+
+}
+
+.promotions-title {
+    text-align: center;
+    margin: 40px 0;
+    color: rgb(230, 113, 191);
+}
