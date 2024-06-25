@@ -33,6 +33,7 @@ ul {
     gap: 50px;
     align-items: center;
     font-weight: bold;
+    margin-left: 50%;
 }
 
 .menu-link:hover {
@@ -53,6 +54,7 @@ ul {
 }
 
 #home {
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -98,25 +100,46 @@ img {
 }
 
 .meu-botao {
-    background-color:palevioletred;
-    color:rgb(224, 76, 175);;
+   background-color: pink ;
+    color:rgb(229, 25, 161);
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
     font-family: monospace;
     cursor: pointer;
     border: none;
+    margin-left: 45%;
+    margin-top: 2%;
 }
 
 .footer-container {
     display: flex;
-    max-width: 1200px;
+    max-width: 70%;
     margin: 0 auto;
-    margin-bottom: 0;
     padding: 20px;
     justify-content: space-around;
     align-items: flex-start;
     color: palevioletred;
+    margin-top: 10%;
     
 }
 
+.tabela {
+    justify-content: center;
+    margin-left: 150px;
+
+}
+
+@media (max-width: 500px){
+.home-bg-imagem {
+    width: 1000%;
+    height: 1000%;
+    margin: 0%;
+}
+.tabela{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-left: 70px;
+}
+}
